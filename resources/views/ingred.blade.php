@@ -1,3 +1,5 @@
+<title>Ingrediants</title>
+
 @extends('layouts.master')
 
 @section('content')
@@ -5,6 +7,7 @@
         <div class="masthead">
       <ul>
         <li><a href="{{ route('home')}}">Home</a></li>
+        <li><a href="{{ route('menu')}}">Menu</a></li>
         <li><a class = "active">Ingrediants</a></li>
         <li><a href="{{ route('barview')}}">Bartender View</a></li>
       </ul>

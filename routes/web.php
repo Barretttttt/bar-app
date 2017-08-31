@@ -23,3 +23,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/bartenderview', 'HomeController@bartenderview')->name('barview');
 
 Route::get('/ingrediants', 'HomeController@ingrediants')->name('ingred');
+
+Route::get('menu', 'HomeController@menu')->name('menu');

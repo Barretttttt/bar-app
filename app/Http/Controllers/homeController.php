@@ -36,4 +36,9 @@ class HomeController extends Controller
         return view('ingred');
     }
 
+    public function menu()
+    {
+        return view('menu');
+    }
+
 }
