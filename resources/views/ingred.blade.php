@@ -1,4 +1,4 @@
-<title>Ingrediants</title>
+<title>Ingredients</title>
 
 @extends('layouts.master')
 
@@ -8,7 +8,7 @@
       <ul>
         <li><a href="{{ route('home')}}">Home</a></li>
         <li><a href="{{ route('menu')}}">Menu</a></li>
-        <li><a class = "active">Ingrediants</a></li>
+        <li><a class = "active">Ingredients</a></li>
         <li><a href="{{ route('barview')}}">Bartender View</a></li>
       </ul>
     </div>

@@ -8,7 +8,7 @@
       <ul>
         <li><a href="{{ route('home')}}">Home</a></li>
         <li><a class="active">Menu</a></li>
-        <li><a href="{{ route('ingred')}}">Ingrediants</a></li>
+        <li><a href="{{ route('ingred')}}">Ingredients</a></li>
         <li><a href="{{ route('barview')}}">Bartender View</a></li>
       </ul>
     </div>

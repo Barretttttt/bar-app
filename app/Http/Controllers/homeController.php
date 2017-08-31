@@ -31,7 +31,7 @@ class HomeController extends Controller
         return view('barview');
     }
 
-    public function ingrediants()
+    public function ingredients()
     {
         return view('ingred');
     }
